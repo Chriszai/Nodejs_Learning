@@ -1,0 +1,14 @@
+# node package versions
+-13.4.6
+-major: 13,  minor: 4, patch: 6
+
+npm outdated
+^锁定主版本 ~锁定前两个版本 *表是最新版本
+
+npm i nrm -g 安装
+nrm list 查看源
+nrm use taobao 切换源
+nrm test 测试哪个源更快
+
+npx npm package extension
+npx gulp -v 会去当前文件夹寻找 若是没有则会进行下载（注意这个是临时文件夹 ）
